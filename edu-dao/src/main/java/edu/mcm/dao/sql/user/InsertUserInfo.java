@@ -1,6 +1,5 @@
 package edu.mcm.dao.sql.user;
 
-import java.util.Date;
 
 /**
  * 插入用户信息
@@ -27,7 +26,7 @@ public class InsertUserInfo {
 	private int statuses_count; // 状态量
 	private int favorites_count; // 收藏量
 	private int bi_followers_count; // 双向关注量
-	private Date created_at; // 创建时间
+	private long created_at; // 创建时间
 	private boolean verified; // 是否认证
 	private int verified_type; // 认证类型
 	private String verified_info; // 认证信息
@@ -35,7 +34,7 @@ public class InsertUserInfo {
 	private long qq; // qq号
 	private String weibo; // 微博号
 	private String weixin; // 微信号
-	private Date lasttime; // 最后修改时间
+	private long lasttime; // 最后修改时间
 	//
 	private String education_infos; // 教育信息
 	private String career_infos; // 职业信息
@@ -177,11 +176,11 @@ public class InsertUserInfo {
 		this.bi_followers_count = bi_followers_count;
 	}
 
-	public Date getCreated_at() {
+	public long getCreated_at() {
 		return created_at;
 	}
 
-	public void setCreated_at(Date created_at) {
+	public void setCreated_at(long created_at) {
 		this.created_at = created_at;
 	}
 
@@ -241,11 +240,11 @@ public class InsertUserInfo {
 		this.weixin = weixin;
 	}
 
-	public Date getLasttime() {
+	public long getLasttime() {
 		return lasttime;
 	}
 
-	public void setLasttime(Date lasttime) {
+	public void setLasttime(long lasttime) {
 		this.lasttime = lasttime;
 	}
 
