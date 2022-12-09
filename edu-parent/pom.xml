@@ -10,7 +10,7 @@
 	<description>Managing the dependency jars for all projects.</description>
 
 	<properties>
-		<spring.version>3.2.3.RELEASE</spring.version>
+		<spring.version>6.0.0</spring.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<junit.version>4.11</junit.version>
 		<hamcrest.all.version>1.3</hamcrest.all.version>
